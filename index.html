@@ -488,7 +488,7 @@
         <div class="header-left">
             <button class="header-back-button" id="headerBackBtnEl"><i class="bi bi-arrow-left"></i></button>
             <img src="https://via.placeholder.com/40/FFFFFF/0F172A?text=G" alt="Logo" class="header-logo" id="appLogoEl">
-            <div class="header-title" id="headerTitleContainerEl"> NK E SPORTS <span id="headerUserGreetingEl">Guest</span> </div>
+            <div class="header-title" id="headerTitleContainerEl"> KO TOURNAMENTS <span id="headerUserGreetingEl">Guest</span> </div>
             <div class="header-game-title" id="headerGameTitleEl">Game Title</div>
         </div>
         <div class="header-right">
@@ -536,7 +536,7 @@
             <!-- Announcement Card -->
             <div class="announcement-card">
                 <h5 class="mb-1">Announcement:</h5>
-                <p class="mb-0 small">CLICK HERE !! ★ KNOW ALL THE RULES AND REGULATIONS ★ ANY RULE BREAK = DIRECT BAN WITHOUT NOTICE ★ NK E SPORTS</p>
+                <p class="mb-0 small">CLICK HERE !! ★ KNOW ALL THE RULES AND REGULATIONS ★ ANY RULE BREAK = DIRECT BAN WITHOUT NOTICE ★ KO TOURNAMENTS</p>
             </div>
 
             <!-- Promotion Slider -->
@@ -985,7 +985,7 @@
         import { getDatabase, ref, get, set, update, push, query, orderByChild, equalTo, onValue, runTransaction, off, limitToLast, serverTimestamp, limitToFirst, onChildAdded } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js";
         import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
 
-       const firebaseConfig = {
+        const firebaseConfig = {
   apiKey: "AIzaSyDtKdCHvNgBhw98gMXdvRzcX1ZLQkB7GN4",
   authDomain: "new-app-354db.firebaseapp.com",
   projectId: "new-app-354db",
@@ -1093,7 +1093,7 @@ Fast Join Free
 Use Code - ( ${code} ) Free ₹${signupBonus} 😀
 
 Download 👇
-https:ct.ws/`;
+http://ko-tournament.ct.ws/`;
 
             if (navigator.share) {
                  navigator.share({
@@ -1142,7 +1142,7 @@ https:ct.ws/`;
             if (elements.headerTitleContainer) {
                 elements.headerTitleContainer.style.display = defaultTitleVisible ? 'flex' : 'none';
                 if(isHomePage) {
-                    elements.headerTitleContainer.innerHTML = 'NK E SPORTS';
+                    elements.headerTitleContainer.innerHTML = 'KO TOURNAMENTS';
                 } else {
                     elements.headerTitleContainer.innerHTML = `Welcome <span id="headerUserGreetingEl">Guest</span>`;
                 }
